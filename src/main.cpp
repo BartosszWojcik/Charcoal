@@ -185,7 +185,7 @@ void unloadOptions(Options& options) {
 }
 
 int main() {
-    system("cls");
+    system("clear");
     
     Options options;
     loadOptions(options);
@@ -222,7 +222,7 @@ int main() {
             std::cout << "contrast: " << options.contrast << '\n';
         }
         else if (input == "c") {
-            system("cls");
+            system("clear");
         }
         else if (input == "q") {
             unloadOptions(options);
